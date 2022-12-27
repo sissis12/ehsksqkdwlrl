@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="RCpPL`sBKm.;/n84#DlW" x="225" y="20"><statement name="HANDLER"><block type="controls_if" id="]vbZA=Su7x_r;Prh|1n%"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7,]G#o~uC=*(9f#5x-!S"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="ocW%}fq{%b_kx2]*WdFW"></block></value><value name="B"><shadow type="math_number" id="0dqyUP{Tztrsl!!Oj=?!"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="7{OFvyIHB!V$mxJDv3lV"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="RCpPL`sBKm.;/n84#DlW" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="]vbZA=Su7x_r;Prh|1n%"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="7,]G#o~uC=*(9f#5x-!S"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="ocW%}fq{%b_kx2]*WdFW"></block></value><value name="B"><shadow type="math_number" id="0dqyUP{Tztrsl!!Oj=?!"><field name="NUM">5</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="7{OFvyIHB!V$mxJDv3lV"><field name="LEDS">`
         # . . . # 
         . # # # . 
         . # . # . 
@@ -16,7 +16,7 @@
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="zaZ^C)=ke:0F$9k!;IN(" x="759" y="55"><statement name="HANDLER"><block type="device_show_leds" id="_j4+Ol-I{lQ5bZKxM~xp"><field name="LEDS">`
+        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="zaZ^C)=ke:0F$9k!;IN(" x="534" y="35"><statement name="HANDLER"><block type="device_show_leds" id="_j4+Ol-I{lQ5bZKxM~xp"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
